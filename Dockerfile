@@ -5,7 +5,6 @@ ENV AUTOINDEX on
 RUN apt-get update
 RUN apt-get upgrade -y
 RUN apt install -y nginx
-RUN apt install -y vim
 RUN apt install -y wget
 RUN apt install -y mariadb-server 
 RUN apt install -y php7.3 php7.3-fpm php7.3-mysql php7.3-cli php7.3-pdo php7.3-gd php7.3-mbstring
